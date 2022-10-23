@@ -340,12 +340,13 @@ footer .container{
 }
 #nosotros h2{
     text-align: center;
+    padding-top: 10px;
 }
 .iconos-nosotros{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .iconos{
     flex-basis: calc(33.3%-1rem);
@@ -357,6 +358,7 @@ footer .container{
     animation-name: bounce 2s ;
     animation-iteration-count: infinite;
     animation-duration: 2s;
+    padding-top: 25px;
     
 }
 
