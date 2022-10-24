@@ -25,6 +25,9 @@ button{
     color: white;
     background-color: rgb(0, 0, 0);
 }
+button:hover{
+    background-color: red;
+}
 
 .container{
     max-width: 1400px;
@@ -99,7 +102,7 @@ header a:hover{
 }
 
 #afone h2{
-    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(2, 2, 3)rgb(4, 4, 7)x 0 rgb(3, 3, 5), 0 -1px rgb(5, 5, 10);
 
 }
 
@@ -173,8 +176,8 @@ header a:hover{
 #mas-productos h2{
     margin-top: 0;
     font-family: 'Lucida Bright';
-    text-shadow: -1px 0 rgb(238, 16, 16), 0 1px rgb(240, 6, 6), 1px 0 rgb(231, 15, 15), 0 -1px rgb(230, 4, 4);
-    color: rgb(244, 244, 250);
+    text-shadow: -1px 0 rgb(5, 4, 4), 0 1px rgb(5, 4, 4), 1px 0 rgrgb(7, 6, 6)0 -1px rgb(2, 1, 1);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -341,6 +344,7 @@ footer .container{
 #nosotros h2{
     text-align: center;
     padding-top: 10px;
+    text-decoration: solid;
 }
 .iconos-nosotros{
     display: flex;
