@@ -54,7 +54,6 @@ button:hover {
 header {
   background-color: whitesmoke;
 }
-
 header .logo {
   margin: 0;
   padding: 25px 30px;
@@ -64,27 +63,23 @@ header .logo {
   font-family: "Lucida Bright";
   text-shadow: 5px 5px 5px black;
 }
-
 header .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 header nav {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding-bottom: 25px;
 }
-
 header a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
   color: black;
 }
-
 header a:hover {
   color: rgb(184, 12, 12);
 }
@@ -101,7 +96,6 @@ header a:hover {
   background-size: cover;
   background-position: center center;
 }
-
 #hero h1 {
   color: rgb(240, 232, 232);
   font-family: "Lucida Bright";
@@ -117,11 +111,9 @@ header a:hover {
   font-family: "Lucida Bright";
   background-color: gray;
 }
-
 #afone h2 {
   text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(2, 2, 3) rgb(4, 4, 7) x 0 rgb(3, 3, 5), 0 -1px rgb(5, 5, 10);
 }
-
 #afone .white {
   padding: 200px 12px;
   background-image: url("../img/af1 white..jpg");
@@ -134,12 +126,10 @@ header a:hover {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-
 #afone .white:hover {
   transform: scale(1.1);
   box-shadow: 13px 15px 37px black;
 }
-
 #afone .black {
   padding: 200px 12px;
   background-image: url("../img/af1 black.jpg");
@@ -152,12 +142,10 @@ header a:hover {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-
 #afone .black:hover {
   transform: scale(1.1);
   box-shadow: 13px 15px 37px black;
 }
-
 #afone .gray {
   padding: 200px 12px;
   background-image: url("../img/af1 pink.jpg");
@@ -170,7 +158,6 @@ header a:hover {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-
 #afone .gray:hover {
   transform: scale(1.1);
   box-shadow: 13px 15px 37px black;
@@ -181,28 +168,23 @@ header a:hover {
   color: white;
   text-align: center;
 }
-
 #mas-productos .container {
   padding: 50px 0px;
   margin: 0;
 }
-
 #mas-productos h2 {
   margin-top: 0;
   font-family: "Lucida Bright";
   text-shadow: -1px 0 rgb(5, 4, 4), 0 1px rgb(5, 4, 4), 1px 0 rgrgb(7, 6, 6) 0 -1px rgb(2, 1, 1);
   color: rgb(0, 0, 0);
 }
-
 #mas-productos p {
   display: none;
 }
-
 #mas-productos h3 {
   color: red;
   margin-top: 0;
 }
-
 #mas-productos .carta {
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,21 +195,17 @@ header a:hover {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-
 #mas-productos .carta:hover {
   transform: scale(1.1);
   box-shadow: 10px 12px 30px rgb(214, 207, 207);
 }
-
-.carta:first-child {
+#mas-productos .carta:first-child {
   background-image: url("../img/wonder white.jpg");
 }
-
-.carta:nth-child(2) {
+#mas-productos .carta:nth-child(2) {
   background-image: url("../img/detroit golden.jpg");
 }
-
-.carta:nth-child(3) {
+#mas-productos .carta:nth-child(3) {
   background-image: url("../img/detroti black black.jpg");
 }
 
@@ -239,13 +217,11 @@ header a:hover {
   flex-direction: column;
   background-color: rgb(201, 200, 200);
 }
-
 #caracteristicas li {
   margin: 15px 0px;
   font-weight: bold;
   display: flex;
 }
-
 #caracteristicas button {
   font-size: 1em;
 }
@@ -253,26 +229,23 @@ header a:hover {
 footer {
   background-color: whitesmoke;
 }
-
-footer p {
-  margin: 0;
-  color: black;
-  padding: 12px;
-}
-
 footer .container {
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
+footer p {
+  margin: 0;
+  color: black;
+  padding: 12px;
+}
 
 /** PRODUCTOS**/
-#productoss .container h2 {
+#productoss h2 {
   text-align: center;
   color: black;
 }
-
 #productoss .container {
   background-color: rgb(224, 218, 218);
 }
@@ -286,18 +259,15 @@ footer .container {
   background-color: gray;
   flex-wrap: wrap;
 }
-
 .container-form h2 {
   margin-bottom: 15px;
   font-size: 35px;
 }
-
 .container-form p {
   font-size: 17px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
-
 .container-form a {
   font-size: 17px;
   display: inline-block;
@@ -307,13 +277,11 @@ footer .container {
   color: black;
   font-weight: 700;
 }
-
 .container-form a i {
   color: orange;
   margin-right: 10px;
 }
-
-.container-form form .campo, textarea {
+.container-form form .campo, .container-form textarea {
   width: 350px;
   padding: 15px 10px;
   font-size: 16px;
@@ -322,14 +290,12 @@ footer .container {
   border-radius: 3px;
   outline: 0px;
 }
-
 .container-form form textarea {
   max-width: 350px;
   min-width: 350px;
   min-height: 140px;
   max-height: 150px;
 }
-
 .container-form .btn-enviar {
   padding: 15px;
   font-size: 16px;
@@ -341,7 +307,6 @@ footer .container {
   cursor: pointer;
   transition: all 300ms ease;
 }
-
 .container-form .btn-enviar:hover {
   background: rgb(204, 17, 17);
 }
@@ -351,27 +316,23 @@ footer .container {
   padding: 100px 30px;
   background-color: rgb(172, 175, 177);
 }
-
 #nosotros h2 {
   text-align: center;
   padding-top: 10px;
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
-
-.iconos-nosotros {
+#nosotros .iconos-nosotros {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   padding-top: 20px;
 }
-
-.iconos {
+#nosotros .iconos {
   flex-basis: calc(33.3% - 1rem);
   text-align: center;
 }
-
-.iconos h3 {
+#nosotros .iconos h3 {
   -webkit-animation-name: bounce 2s;
           animation-name: bounce 2s;
   -webkit-animation-iteration-count: infinite;
@@ -386,7 +347,6 @@ footer .container {
   background-color: rgb(161, 160, 160);
   padding: 100px 30px;
 }
-
 .container-clientes h2 {
   font-size: 30px;
   text-align: center;
@@ -442,7 +402,7 @@ footer .container {
     padding: 100px 30px;
     display: grid;
   }
-  .container-form form .campo, textarea {
+  .container-form form .campo, .container-form textarea {
     width: 100%;
   }
   .container-form form textarea {

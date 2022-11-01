@@ -33,44 +33,42 @@ button:hover{
     max-width: 1400px;
     margin: auto;
     }
+
     header{
         background-color: whitesmoke
          ;
-         
-    }
+         .logo{
+            margin: 0;
+            padding: 25px 30px;
+            font-weight: bold;
+            color: rgb(66, 65, 65);
+            font-size: 1.60em;
+            font-family: 'Lucida Bright';
+           text-shadow: 5px 5px 5px black;
+        }
+        .container{ 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        nav{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 25px;
+           
+        }
+        a{
+            padding: 5px 12px;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            &:hover{
+                    color: rgb(184, 12, 12) ;
+                }
+            }
+         }
 
-    header .logo{
-        margin: 0;
-        padding: 25px 30px;
-        font-weight: bold;
-        color: rgb(66, 65, 65);
-        font-size: 1.60em;
-        font-family: 'Lucida Bright';
-       text-shadow: 5px 5px 5px black;
-    }
-
-    header .container{ 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header nav{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 25px;
-       
-    }
-    header a{
-        padding: 5px 12px;
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-}
-header a:hover{
-    color: rgb(184, 12, 12) ;
-}
 
 #hero{
     display: flex;
@@ -83,190 +81,188 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}
-#hero h1{
-    color: rgb(240, 232, 232);  
-    font-family: 'Lucida Bright'; 
-    text-decoration: solid;
-    text-shadow: 2px 2px 5px rgb(15, 14, 14);
-}
 
-#afone .container{
-    text-align: center;
-    margin: 0;
-    padding: 50px 12px;
-    font-family: 'Lucida Bright';
-    background-color: gray;
+    h1{
+        color: rgb(240, 232, 232);  
+        font-family: 'Lucida Bright'; 
+        text-decoration: solid;
+        text-shadow: 2px 2px 5px rgb(15, 14, 14);
+    }
     
-   
 }
 
-#afone h2{
-    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(2, 2, 3)rgb(4, 4, 7)x 0 rgb(3, 3, 5), 0 -1px rgb(5, 5, 10);
+#afone {  
 
-}
+    .container{
+        text-align: center;
+         margin: 0;
+        padding: 50px 12px;
+        font-family: 'Lucida Bright';
+        background-color: gray;
+    }
 
-#afone .white{
+    h2{
+        text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(2, 2, 3)rgb(4, 4, 7)x 0 rgb(3, 3, 5), 0 -1px rgb(5, 5, 10);
+
+    }
+    .white{
     
-    padding: 200px 12px;
-    background-image: url("../img/af1\ white..jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin: 20px;
-    border-radius: 12px;
-    box-shadow: 5px 8px 10px black;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-   }
+        padding: 200px 12px;
+        background-image: url("../img/af1\ white..jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 20px;
+        border-radius: 12px;
+        box-shadow: 5px 8px 10px black;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+         &:hover{
+            transform: scale(1.1);
+            box-shadow: 13px 15px 37px black;
+         }
+    }
 
-   #afone .white:hover{
-    transform: scale(1.1);
-    box-shadow: 13px 15px 37px black;
-   }
-
-#afone .black{
+       .black{
     
-    padding: 200px 12px;
-    background-image: url("../img/af1\ black.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin: 20px;
-    border-radius: 12px;
-    box-shadow: 5px 8px 10px black;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-#afone .black:hover{
-    transform: scale(1.1);
-    box-shadow: 13px 15px 37px black;
-}
+        padding: 200px 12px;
+        background-image: url("../img/af1\ black.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 20px;
+        border-radius: 12px;
+        box-shadow: 5px 8px 10px black;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{ 
+            transform: scale(1.1);
+            box-shadow: 13px 15px 37px black;
+        }
+    }
 
-#afone .gray{
+    .gray{
     
-    padding: 200px 12px;
-    background-image: url("../img/af1\ pink.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    margin: 20px;
-    border-radius: 12px;
-    box-shadow: 5px 8px 10px black;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
+        padding: 200px 12px;
+        background-image: url("../img/af1\ pink.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 20px;
+        border-radius: 12px;
+        box-shadow: 5px 8px 10px black;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 13px 15px 37px black;
+        }   
+    }
 
-#afone .gray:hover{
-    transform: scale(1.1);
-    box-shadow: 13px 15px 37px black;
 }
+ 
 
 #mas-productos{
     background-color: gray;
     color: white;
     text-align: center;
-}
 
-#mas-productos .container{
-    padding: 50px 0px;
-    margin: 0;
+    .container{
+        padding: 50px 0px;
+        margin: 0;
+        
+    }
     
-}
-#mas-productos h2{
+     h2{
     margin-top: 0;
     font-family: 'Lucida Bright';
     text-shadow: -1px 0 rgb(5, 4, 4), 0 1px rgb(5, 4, 4), 1px 0 rgrgb(7, 6, 6)0 -1px rgb(2, 1, 1);
     color: rgb(0, 0, 0);
-}
+    }
+
+    p{
+        display: none;
+    }
+
+    h3{
+        color: red;
+        margin-top: 0;
+    }
+    .carta{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 80px 0px;
+        margin: 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 10px 12px 30px rgb(214, 207, 207);
+        }
+
+        &:first-child{background-image: url("../img/wonder\ white.jpg");}
+        &:nth-child(2){background-image: url("../img/detroit\ golden.jpg");}
+        &:nth-child(3){background-image: url("../img/detroti\ black\ black.jpg");}
+
+    }
 
 
-#mas-productos p{
-    display: none;
-}
-#mas-productos h3{
-    color: red;
-    margin-top: 0;
 
 }
 
-#mas-productos .carta{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 80px 0px;
-    margin: 20px;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    
-}
-#mas-productos .carta:hover{
-    transform: scale(1.1);
-    box-shadow: 10px 12px 30px rgb(214, 207, 207);
+#caracteristicas{
 
-}
-
-.carta:first-child{
-    background-image: url("../img/wonder\ white.jpg");
-  
-}
-
-.carta:nth-child(2){
-    background-image: url("../img/detroit\ golden.jpg");
-   
-}
-.carta:nth-child(3){
-    background-image: url("../img/detroti\ black\ black.jpg");
-    
-}
-
-#caracteristicas .container{
+    .container{
     text-align: center;
     padding: 150px 12px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: rgb(201, 200, 200);
-}
-#caracteristicas li{
-    margin: 15px 0px;
-    font-weight: bold;
-    display: flex;
-}
-#caracteristicas button{
-    font-size: 1em;
+    }
+    li{
+        margin: 15px 0px;
+        font-weight: bold;
+        display: flex;
+    }
+    button{
+        font-size: 1em;
+    
+    }
 
 }
+ 
 footer{
     background-color: whitesmoke;
-}
-footer p{
-    margin: 0;
-    color: black;
-    padding: 12px;
-
-}
-
-footer .container{
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    .container{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    p{
+        margin: 0;
+        color: black;
+        padding: 12px;
+    }
 }
 
 
 
 /** PRODUCTOS**/
 
-#productoss .container h2{
+#productoss{
+
+  h2{
     text-align: center;
     color: black;
-}
-#productoss .container{
+    }
+ .container{
     background-color: rgb(224, 218, 218);
+    }
 }
-
 
 
 
@@ -279,94 +275,93 @@ footer .container{
     grid-gap: 50px;
     background-color: gray;
     flex-wrap: wrap;
+    h2{
+        margin-bottom: 15px;
+        font-size: 35px
+        }
+    p{
+        font-size: 17px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        }
+    a{
+        font-size: 17px;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        margin-bottom: 15px;
+        color: black;
+        font-weight: 700;
+            i{
+            color: orange;
+            margin-right: 10px; 
+             }
+        }
+    form .campo, textarea{
+            width: 350px;
+            padding: 15px 10px;
+            font-size: 16px;
+            border: 1px solid #dbdbdb;
+            margin-bottom: 20px;
+            border-radius: 3px;
+            outline: 0px;
+        }
+    form textarea{
+            max-width: 350px;
+            min-width: 350px;
+            min-height: 140px;
+            max-height: 150px;
+        }
+    .btn-enviar{
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            outline: 0px;
+            background: rgb(204, 17, 17);
+            color: white;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all 300ms ease;
+            &:hover{
+                background: rgb(204, 17, 17);
+            }
+        }
 }
-.container-form h2{
-    margin-bottom: 15px;
-    font-size: 35px
-}
-.container-form p{
-    font-size: 17px;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-.container-form a{
-    font-size: 17px;
-    display: inline-block;
-    text-decoration: none;
-    width: 100%;
-    margin-bottom: 15px;
-    color: black;
-    font-weight: 700;
-}
-.container-form a i{
-    color: orange;
-    margin-right: 10px;
-    
-}
-.container-form form .campo, textarea{
-    width: 350px;
-    padding: 15px 10px;
-    font-size: 16px;
-    border: 1px solid #dbdbdb;
-    margin-bottom: 20px;
-    border-radius: 3px;
-    outline: 0px;
-}
-.container-form form textarea{
-    max-width: 350px;
-    min-width: 350px;
-    min-height: 140px;
-    max-height: 150px;
-}
-.container-form .btn-enviar{
-    padding: 15px;
-    font-size: 16px;
-    border: none;
-    outline: 0px;
-    background: rgb(204, 17, 17);
-    color: white;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: all 300ms ease;
-}
-.container-form .btn-enviar:hover{
-    background: rgb(204, 17, 17);
-}
+
 
 
 /** SOBRE NOSOTROS**/
 
-#nosotros .container{
+#nosotros {
+
+.container{
     padding: 100px 30px;
     background-color: rgb(172, 175, 177);
 
-}
-#nosotros h2{
+    }
+ h2{
     text-align: center;
     padding-top: 10px;
     text-decoration: solid;
-}
+    }
 .iconos-nosotros{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding-top: 20px;
-}
+    }
 .iconos{
     flex-basis: calc(33.3% - 1rem);
     text-align: center;  
+        h3{
+        animation-name: bounce 2s ;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        padding-top: 25px;  
+        }
+    } 
+
 }
-
-
-.iconos h3{
-    animation-name: bounce 2s ;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-    padding-top: 25px;
-    
-}
-
-
     
 
 
@@ -376,91 +371,78 @@ footer .container{
 .container-clientes{
     background-color: rgb(161, 160, 160);
     padding: 100px 30px;
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
 }
-
-.container-clientes h2{
-    font-size: 30px;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 @media (min-width:720px){
   
     header{
-        
         width: 100%;
-    }
-
-    header .container{
+        .container{
         flex-direction: row;
         justify-content: space-between;
-    }
-   
-    header nav{
+        }
+        nav{
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
-
+        }
     }
 
-    #afone .zapas{
+    #afone {
+        .zapas{
         display: flex;
         justify-content: center;
-    }
-
-    #afone .white{
+        }
+        .white{
         padding: 150px;
-
-    }
-    #afone .black{
+        }
+        .black{
         padding: 150px;
-
-    }
-    #afone .gray{
+        }
+        .gray{
         padding: 150px;
-
+        }
     }
 
-    #mas-productos .separador{
+    #mas-productos{
+        .separador{
         display: flex;
         justify-content: center;
-    }
+        }
 
-    #mas-productos .carta{
+        .carta{
         padding: 130px;
         
     }
+    } 
 
-   #caracteristicas .container{
+   #caracteristicas {
+    .container{
     background-color: rgb(192, 187, 187);
-   }
-
-   #caracteristicas li{
+    }
+    li{
     display: flex;
     flex-direction: column;
-   
-   }
+    }
+
+    }
+
 
 /* PRODUCTO PC*/
   
-#productoss .container{
-   
-    margin: 0;
-    padding: 100px;
-}
+#productoss{
 
+    .container{
+        margin: 0;
+        padding: 100px;
+    }
+} 
 
 
    /* Contacto PC*/
@@ -469,17 +451,17 @@ footer .container{
     padding: 100px 30px;
      display: grid;
 
+     form .campo, textarea{
+        width: 100%;
+    }
+    form textarea{
+        max-width: 530px;
+        min-width: 530px;
+        min-height: 140px;
+        max-height: 150px;
+    }
  }
- 
- .container-form form .campo, textarea{
-     width: 100%;
- }
- .container-form form textarea{
-     max-width: 530px;
-     min-width: 530px;
-     min-height: 140px;
-     max-height: 150px;
- }
+  
 
  /* SOBRE NOSOTROS*/
 
