@@ -1,0 +1,45 @@
+.mas-productos{
+    background-color: gray;
+    color: white;
+    text-align: center;
+
+    .container{
+        padding: 50px 0px;
+        margin: 0;
+        
+    }
+    
+     h2{
+    margin-top: 0;
+    font-family: 'Lucida Bright';
+    text-shadow: -1px 0 rgb(5, 4, 4), 0 1px rgb(5, 4, 4), 1px 0 rgrgb(7, 6, 6)0 -1px rgb(2, 1, 1);
+    color: rgb(0, 0, 0);
+    }
+
+    p{
+        display: none;
+    }
+
+    h3{
+        color: red;
+        margin-top: 0;
+    }
+    .carta{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 80px 0px;
+        margin: 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 10px 12px 30px rgb(214, 207, 207);
+        }
+
+        &:first-child{background-image: url("../img/wonder\ white.jpg");}
+        &:nth-child(2){background-image: url("../img/detroit\ golden.jpg");}
+        &:nth-child(3){background-image: url("../img/detroti\ black\ black.jpg");}
+    }
+}

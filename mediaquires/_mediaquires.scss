@@ -1,0 +1,95 @@
+@media (min-width:720px){
+  
+    header{
+        width: 100%;
+        .container-fluid{
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+        }
+    }
+
+    #afone {
+        .zapas{
+        display: flex;
+        justify-content: center;
+        }
+        .white{
+        padding: 150px;
+        }
+        .black{
+        padding: 150px;
+        }
+        .gray{
+        padding: 150px;
+        }
+    }
+
+    #mas-productos{
+        .separador{
+        display: flex;
+        justify-content: center;
+        }
+
+        .carta{
+        padding: 130px;
+        
+    }
+    } 
+
+   #caracteristicas {
+    .container{
+    background-color: rgb(192, 187, 187);
+    }
+    li{
+    display: flex;
+    flex-direction: column;
+    }
+
+    }
+
+
+/* PRODUCTO PC*/
+  
+#productoss{
+
+    .container{
+        margin: 0;
+        padding: 100px;
+    }
+} 
+
+
+   /* Contacto PC*/
+
+   .container-form{
+    padding: 100px 30px;
+     display: grid;
+
+     form .campo, textarea{
+        width: 100%;
+    }
+    form textarea{
+        max-width: 530px;
+        min-width: 530px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+ }
+  
+
+ /* SOBRE NOSOTROS*/
+
+ .iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+ }
+ 
+
+
+}

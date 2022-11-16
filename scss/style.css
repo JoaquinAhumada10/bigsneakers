@@ -1,3 +1,169 @@
+header {
+  background-color: whitesmoke;
+}
+header .navbar-brand {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(66, 65, 65);
+  font-size: 1.6em;
+  font-family: "Lucida Bright";
+  text-shadow: 5px 5px 5px black;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+header a:hover {
+  color: rgb(184, 12, 12);
+}
+
+
+.afone .container {
+  text-align: center;
+  margin: 0;
+  padding: 50px 12px;
+  font-family: "Lucida Bright";
+  background-color: gray;
+}
+.afone h2 {
+  text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(2, 2, 3) rgb(4, 4, 7) x 0 rgb(3, 3, 5), 0 -1px rgb(5, 5, 10);
+}
+.afone .white {
+  padding: 200px 12px;
+  background-image: url("../img/af1 white..jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 8px 10px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.afone .white:hover {
+  transform: scale(1.1);
+  box-shadow: 13px 15px 37px black;
+}
+.afone .black {
+  padding: 200px 12px;
+  background-image: url("../img/af1 black.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 8px 10px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.afone .black:hover {
+  transform: scale(1.1);
+  box-shadow: 13px 15px 37px black;
+}
+.afone .gray {
+  padding: 200px 12px;
+  background-image: url("../img/af1 pink.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 8px 10px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.afone .gray:hover {
+  transform: scale(1.1);
+  box-shadow: 13px 15px 37px black;
+}
+
+.mas-productos {
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+.mas-productos .container {
+  padding: 50px 0px;
+  margin: 0;
+}
+.mas-productos h2 {
+  margin-top: 0;
+  font-family: "Lucida Bright";
+  text-shadow: -1px 0 rgb(5, 4, 4), 0 1px rgb(5, 4, 4), 1px 0 rgrgb(7, 6, 6) 0 -1px rgb(2, 1, 1);
+  color: rgb(0, 0, 0);
+}
+.mas-productos p {
+  display: none;
+}
+.mas-productos h3 {
+  color: red;
+  margin-top: 0;
+}
+.mas-productos .carta {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 80px 0px;
+  margin: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.mas-productos .carta:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 12px 30px rgb(214, 207, 207);
+}
+.mas-productos .carta:first-child {
+  background-image: url("../img/wonder white.jpg");
+}
+.mas-productos .carta:nth-child(2) {
+  background-image: url("../img/detroit golden.jpg");
+}
+.mas-productos .carta:nth-child(3) {
+  background-image: url("../img/detroti black black.jpg");
+}
+
+.caracteristicas .container {
+  text-align: center;
+  padding: 150px 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(201, 200, 200);
+}
+.caracteristicas li {
+  margin: 15px 0px;
+  font-weight: bold;
+  display: flex;
+}
+.caracteristicas button {
+  font-size: 1em;
+}
+
+footer {
+  background-color: whitesmoke;
+}
+footer .container {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer p {
+  margin: 0;
+  color: black;
+  padding: 12px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -51,35 +217,7 @@ button:hover {
   margin: auto;
 }
 
-header {
-  background-color: whitesmoke;
-}
-header .navbar-brand {
-  margin: 0;
-  padding: 25px 30px;
-  font-weight: bold;
-  color: rgb(66, 65, 65);
-  font-size: 1.6em;
-  font-family: "Lucida Bright";
-  text-shadow: 5px 5px 5px black;
-}
-header nav {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-bottom: 25px;
-}
-header a {
-  padding: 5px 12px;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-header a:hover {
-  color: rgb(184, 12, 12);
-}
-
-#hero {
+.hero {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -91,7 +229,7 @@ header a:hover {
   background-size: cover;
   background-position: center center;
 }
-#hero h1 {
+.hero h1 {
   color: rgb(240, 232, 232);
   font-family: "Lucida Bright";
   -webkit-text-decoration: solid;
@@ -99,149 +237,12 @@ header a:hover {
   text-shadow: 2px 2px 5px rgb(15, 14, 14);
 }
 
-#afone .container {
-  text-align: center;
-  margin: 0;
-  padding: 50px 12px;
-  font-family: "Lucida Bright";
-  background-color: gray;
-}
-#afone h2 {
-  text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(2, 2, 3) rgb(4, 4, 7) x 0 rgb(3, 3, 5), 0 -1px rgb(5, 5, 10);
-}
-#afone .white {
-  padding: 200px 12px;
-  background-image: url("../img/af1 white..jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin: 20px;
-  border-radius: 12px;
-  box-shadow: 5px 8px 10px black;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-#afone .white:hover {
-  transform: scale(1.1);
-  box-shadow: 13px 15px 37px black;
-}
-#afone .black {
-  padding: 200px 12px;
-  background-image: url("../img/af1 black.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin: 20px;
-  border-radius: 12px;
-  box-shadow: 5px 8px 10px black;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-#afone .black:hover {
-  transform: scale(1.1);
-  box-shadow: 13px 15px 37px black;
-}
-#afone .gray {
-  padding: 200px 12px;
-  background-image: url("../img/af1 pink.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  margin: 20px;
-  border-radius: 12px;
-  box-shadow: 5px 8px 10px black;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-#afone .gray:hover {
-  transform: scale(1.1);
-  box-shadow: 13px 15px 37px black;
-}
-
-#mas-productos {
-  background-color: gray;
-  color: white;
-  text-align: center;
-}
-#mas-productos .container {
-  padding: 50px 0px;
-  margin: 0;
-}
-#mas-productos h2 {
-  margin-top: 0;
-  font-family: "Lucida Bright";
-  text-shadow: -1px 0 rgb(5, 4, 4), 0 1px rgb(5, 4, 4), 1px 0 rgrgb(7, 6, 6) 0 -1px rgb(2, 1, 1);
-  color: rgb(0, 0, 0);
-}
-#mas-productos p {
-  display: none;
-}
-#mas-productos h3 {
-  color: red;
-  margin-top: 0;
-}
-#mas-productos .carta {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 80px 0px;
-  margin: 20px;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-#mas-productos .carta:hover {
-  transform: scale(1.1);
-  box-shadow: 10px 12px 30px rgb(214, 207, 207);
-}
-#mas-productos .carta:first-child {
-  background-image: url("../img/wonder white.jpg");
-}
-#mas-productos .carta:nth-child(2) {
-  background-image: url("../img/detroit golden.jpg");
-}
-#mas-productos .carta:nth-child(3) {
-  background-image: url("../img/detroti black black.jpg");
-}
-
-#caracteristicas .container {
-  text-align: center;
-  padding: 150px 12px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgb(201, 200, 200);
-}
-#caracteristicas li {
-  margin: 15px 0px;
-  font-weight: bold;
-  display: flex;
-}
-#caracteristicas button {
-  font-size: 1em;
-}
-
-footer {
-  background-color: whitesmoke;
-}
-footer .container {
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-footer p {
-  margin: 0;
-  color: black;
-  padding: 12px;
-}
-
 /** PRODUCTOS**/
-#productoss h2 {
+.productoss h2 {
   text-align: center;
   color: black;
 }
-#productoss .container {
+.productoss .container {
   background-color: rgb(224, 218, 218);
 }
 
@@ -307,27 +308,27 @@ footer p {
 }
 
 /** SOBRE NOSOTROS**/
-#nosotros .container {
+.nosotros .container {
   padding: 100px 30px;
   background-color: rgb(172, 175, 177);
 }
-#nosotros h2 {
+.nosotros h2 {
   text-align: center;
   padding-top: 10px;
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
-#nosotros .iconos-nosotros {
+.nosotros .iconos-nosotros {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   padding-top: 20px;
 }
-#nosotros .iconos {
+.nosotros .iconos {
   flex-basis: calc(33.3% - 1rem);
   text-align: center;
 }
-#nosotros .iconos h3 {
+.nosotros .iconos h3 {
   -webkit-animation-name: bounce 2s;
           animation-name: bounce 2s;
   -webkit-animation-iteration-count: infinite;
@@ -346,7 +347,6 @@ footer p {
   font-size: 30px;
   text-align: center;
 }
-
 @media (min-width: 720px) {
   header {
     width: 100%;
@@ -360,35 +360,35 @@ footer p {
     padding-bottom: 0;
     padding-right: 20px;
   }
-  #afone .zapas {
+  .afone .zapas {
     display: flex;
     justify-content: center;
   }
-  #afone .white {
+  .afone .white {
     padding: 150px;
   }
-  #afone .black {
+  .afone .black {
     padding: 150px;
   }
-  #afone .gray {
+  .afone .gray {
     padding: 150px;
   }
-  #mas-productos .separador {
+  .mas-productos .separador {
     display: flex;
     justify-content: center;
   }
-  #mas-productos .carta {
+  .mas-productos .carta {
     padding: 130px;
   }
-  #caracteristicas .container {
+  .caracteristicas .container {
     background-color: rgb(192, 187, 187);
   }
-  #caracteristicas li {
+  .caracteristicas li {
     display: flex;
     flex-direction: column;
   }
   /* PRODUCTO PC*/
-  #productoss .container {
+  .productoss .container {
     margin: 0;
     padding: 100px;
   }
