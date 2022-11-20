@@ -1,3 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.1em;
+}
+
+button {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 10px rgb(7, 7, 7);
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+button:hover {
+  background-color: red;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
 header {
   background-color: whitesmoke;
 }
@@ -26,6 +79,25 @@ header a:hover {
   color: rgb(184, 12, 12);
 }
 
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: url("../img/nike.jpg ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hero h1 {
+  color: rgb(240, 232, 232);
+  font-family: "Lucida Bright";
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  text-shadow: 2px 2px 5px rgb(15, 14, 14);
+}
 
 .afone .container {
   text-align: center;
@@ -138,7 +210,7 @@ header a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(201, 200, 200);
+  background-color: whitesmoke;
 }
 .caracteristicas li {
   margin: 15px 0px;
@@ -162,79 +234,6 @@ footer p {
   margin: 0;
   color: black;
   padding: 12px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-}
-
-h1 {
-  font-size: 3.5em;
-}
-
-h2 {
-  font-size: 2.7em;
-}
-
-h3 {
-  font-size: 2em;
-}
-
-p {
-  font-size: 1.25em;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  font-size: 1.1em;
-}
-
-button {
-  font-size: 1em;
-  font-weight: bold;
-  padding: 10px 30px;
-  border-radius: 10px;
-  border: 2px solid rgb(0, 0, 0);
-  box-shadow: 2px 2px 10px rgb(7, 7, 7);
-  color: white;
-  background-color: rgb(0, 0, 0);
-}
-
-button:hover {
-  background-color: red;
-}
-
-.container {
-  max-width: 1400px;
-  margin: auto;
-}
-
-.hero {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  height: 90vh;
-  background-image: url("../img/nike.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-.hero h1 {
-  color: rgb(240, 232, 232);
-  font-family: "Lucida Bright";
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
-  text-shadow: 2px 2px 5px rgb(15, 14, 14);
 }
 
 /** PRODUCTOS**/
@@ -347,6 +346,7 @@ button:hover {
   font-size: 30px;
   text-align: center;
 }
+
 @media (min-width: 720px) {
   header {
     width: 100%;

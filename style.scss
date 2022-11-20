@@ -1,0 +1,229 @@
+@import "buttons";
+@import "texto";
+@import "mediaquires";
+@import "productos";
+@import "contactos";
+@import "sobrenosotros";
+@import "clientes";
+@import "variables";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif ;
+}
+
+ul{ list-style: none;}
+li{font-size: 1.10em ;
+}
+
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    }
+
+    header{
+        background-color: whitesmoke
+         ;
+         .navbar-brand{
+            margin: 0;
+            padding: 25px 30px;
+            font-weight: bold;
+            color: rgb(66, 65, 65);
+            font-size: 1.60em;
+            font-family: 'Lucida Bright';
+           text-shadow: 5px 5px 5px black;
+        }
+        nav{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 25px;
+           
+        }
+        a{
+            padding: 5px 12px;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            &:hover{
+                    color: rgb(184, 12, 12) ;
+                }
+            }
+         }
+    
+.hero{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:url("../img/nike.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    h1{
+        color: rgb(240, 232, 232);  
+        font-family: 'Lucida Bright'; 
+        text-decoration: solid;
+        text-shadow: 2px 2px 5px rgb(15, 14, 14);
+    }
+}
+.afone {  
+
+    .container{
+        text-align: center;
+         margin: 0;
+        padding: 50px 12px;
+        font-family: 'Lucida Bright';
+        background-color: gray;
+    }
+
+    h2{
+        text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(2, 2, 3)rgb(4, 4, 7)x 0 rgb(3, 3, 5), 0 -1px rgb(5, 5, 10);
+
+    }
+    .white{
+    
+        padding: 200px 12px;
+        background-image: url("../img/af1\ white..jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 20px;
+        border-radius: 12px;
+        box-shadow: 5px 8px 10px black;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+         &:hover{
+            transform: scale(1.1);
+            box-shadow: 13px 15px 37px black;
+         }
+    }
+
+       .black{
+    
+        padding: 200px 12px;
+        background-image: url("../img/af1\ black.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 20px;
+        border-radius: 12px;
+        box-shadow: 5px 8px 10px black;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{ 
+            transform: scale(1.1);
+            box-shadow: 13px 15px 37px black;
+        }
+    }
+
+    .gray{
+    
+        padding: 200px 12px;
+        background-image: url("../img/af1\ pink.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin: 20px;
+        border-radius: 12px;
+        box-shadow: 5px 8px 10px black;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 13px 15px 37px black;
+        }   
+    }
+
+}
+.mas-productos{
+    background-color: gray;
+    color: white;
+    text-align: center;
+
+    .container{
+        padding: 50px 0px;
+        margin: 0;
+        
+    }
+    
+     h2{
+    margin-top: 0;
+    font-family: 'Lucida Bright';
+    text-shadow: -1px 0 rgb(5, 4, 4), 0 1px rgb(5, 4, 4), 1px 0 rgrgb(7, 6, 6)0 -1px rgb(2, 1, 1);
+    color: rgb(0, 0, 0);
+    }
+
+    p{
+        display: none;
+    }
+
+    h3{
+        color: red;
+        margin-top: 0;
+    }
+    .carta{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 80px 0px;
+        margin: 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 10px 12px 30px rgb(214, 207, 207);
+        }
+
+        &:first-child{background-image: url("../img/wonder\ white.jpg");}
+        &:nth-child(2){background-image: url("../img/detroit\ golden.jpg");}
+        &:nth-child(3){background-image: url("../img/detroti\ black\ black.jpg");}
+    }
+}
+.caracteristicas{
+
+    .container{
+    text-align: center;
+    padding: 150px 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    }
+    li{
+        margin: 15px 0px;
+        font-weight: bold;
+        display: flex;
+    }
+    button{
+        font-size: 1em;
+    
+    }
+
+}
+footer{
+    background-color: whitesmoke;
+    .container{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    p{
+        margin: 0;
+        color: black;
+        padding: 12px;
+    }
+}
+
+

@@ -13,7 +13,7 @@
         }
     }
 
-    #afone {
+    .afone {
         .zapas{
         display: flex;
         justify-content: center;
@@ -29,7 +29,7 @@
         }
     }
 
-    #mas-productos{
+    .mas-productos{
         .separador{
         display: flex;
         justify-content: center;
@@ -41,7 +41,7 @@
     }
     } 
 
-   #caracteristicas {
+   .caracteristicas {
     .container{
     background-color: rgb(192, 187, 187);
     }
@@ -55,7 +55,7 @@
 
 /* PRODUCTO PC*/
   
-#productoss{
+.productoss{
 
     .container{
         margin: 0;
