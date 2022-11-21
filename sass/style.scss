@@ -64,7 +64,7 @@ li{font-size: 1.10em ;
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    background-image:url("../index.html/img/nike.jpg");
+    background-image:url("../img/nike.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -93,7 +93,7 @@ li{font-size: 1.10em ;
     .white{
     
         padding: 200px 12px;
-        background-image: url("../index.html/img/af1\ white..jpg");
+        background-image: url("../img/af1\ white..jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -111,7 +111,7 @@ li{font-size: 1.10em ;
        .black{
     
         padding: 200px 12px;
-        background-image: url("../index.html/img/af1\ black.jpg");
+        background-image: url("../img/af1\ black.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -129,7 +129,7 @@ li{font-size: 1.10em ;
     .gray{
     
         padding: 200px 12px;
-        background-image: url("../index.html/img/af1\ pink.jpg");
+        background-image: url("../img/af1\ pink.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -185,9 +185,9 @@ li{font-size: 1.10em ;
             box-shadow: 10px 12px 30px rgb(214, 207, 207);
         }
 
-        &:first-child{background-image: url("../index.html/img/wonder\ white.jpg");}
-        &:nth-child(2){background-image: url("../index.html/img/detroit\ golden.jpg");}
-        &:nth-child(3){background-image: url("../index.html/img/detroti\ black\ black.jpg");}
+        &:first-child{background-image: url("../img/wonder\ white.jpg");}
+        &:nth-child(2){background-image: url("../img/detroit\ golden.jpg");}
+        &:nth-child(3){background-image: url("../img/detroti\ black\ black.jpg");}
     }
 }
 .caracteristicas{
