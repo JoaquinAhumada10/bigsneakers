@@ -2,15 +2,18 @@
   
     header{
         width: 100%;
+        align-items: center;
         .container-fluid{
-        flex-direction: row;
-        justify-content: space-between;
-        }
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            }
         nav{
-        flex-direction: row;
-        padding-bottom: 0;
-        padding-right: 20px;
-        }
+            flex-direction: row;
+            padding-bottom: 0;
+            padding-right: 20px;
+            }
+      
     }
 
     .afone {

@@ -7,13 +7,46 @@
 @import "clientes";
 @import "variables";
 
+@mixin TopStyle {
+    padding: 200px 12px;
+    background-image: url("../img/af1\ white..jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 8px 10px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+     &:hover{
+        transform: scale(1.1);
+        box-shadow: 13px 15px 37px black;
+     }
+    
+}
+
+@mixin Cartamasproductos {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 80px 0px;
+    margin: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+        box-shadow: 10px 12px 30px rgb(214, 207, 207);
+    }
+}
+
 *{
     box-sizing: border-box;
 }
 
 body{
     margin: 0;
-    font-family: 'Roboto',sans-serif ;
+    font-family: 'Lucida Bright'; 
 }
 
 ul{ list-style: none;}
@@ -91,57 +124,18 @@ li{font-size: 1.10em ;
 
     }
     .white{
-    
-        padding: 200px 12px;
         background-image: url("../img/af1\ white..jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        margin: 20px;
-        border-radius: 12px;
-        box-shadow: 5px 8px 10px black;
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-         &:hover{
-            transform: scale(1.1);
-            box-shadow: 13px 15px 37px black;
-         }
+        @include TopStyle();
     }
 
        .black{
-    
-        padding: 200px 12px;
         background-image: url("../img/af1\ black.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        margin: 20px;
-        border-radius: 12px;
-        box-shadow: 5px 8px 10px black;
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-        &:hover{ 
-            transform: scale(1.1);
-            box-shadow: 13px 15px 37px black;
-        }
+        @include TopStyle();
     }
 
     .gray{
-    
-        padding: 200px 12px;
         background-image: url("../img/af1\ pink.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        margin: 20px;
-        border-radius: 12px;
-        box-shadow: 5px 8px 10px black;
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-        &:hover{
-            transform: scale(1.1);
-            box-shadow: 13px 15px 37px black;
-        }   
+        @include TopStyle();
     }
 
 }
@@ -172,19 +166,7 @@ li{font-size: 1.10em ;
         margin-top: 0;
     }
     .carta{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        padding: 80px 0px;
-        margin: 20px;
-        border-radius: 12px;
-        cursor: pointer;
-        transition: all 0.3s ease-in-out;
-        &:hover{
-            transform: scale(1.1);
-            box-shadow: 10px 12px 30px rgb(214, 207, 207);
-        }
-
+        @include Cartamasproductos();
         &:first-child{background-image: url("../img/wonder\ white.jpg");}
         &:nth-child(2){background-image: url("../img/detroit\ golden.jpg");}
         &:nth-child(3){background-image: url("../img/detroti\ black\ black.jpg");}
